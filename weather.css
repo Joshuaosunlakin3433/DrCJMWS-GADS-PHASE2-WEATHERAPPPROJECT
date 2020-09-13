@@ -1,0 +1,146 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+p{
+    color: whitesmoke;
+    padding: 5px;
+    padding-top: 7px;
+    font-size: 30px;
+    font-weight: 300;
+    text-shadow: -3px 3px 3px rgb(175, 157, 108);
+}
+#welcome{
+    color:rgb(167, 165, 163);
+}
+
+
+
+.logo{
+  font-weight: 500;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-image: linear-gradient(rgb(168, 122, 122), rgb(116, 51, 51));
+    }
+
+
+
+
+#imagewrapper{
+    background-image: url(./icons/4.jpg);
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    
+    background-size:cover;
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-attachment: fixed;
+     
+} 
+
+@media screen and (max-width:320px) {
+    body{
+        width: 320px;
+    }
+    
+}
+
+
+.app-wrapper{
+
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-family: 'Courgette', cursive;
+    font-weight: 600;
+   min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0,0,0,0.8));
+   
+} 
+
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.search-box{
+    width: 100%;
+    max-width: 280px;
+    padding: 12px;
+    margin: 20px;
+    border-radius: 50px 5px;
+    outline: none;
+    border: none;
+    border-bottom:5px solid rgb(153, 136, 202);
+color: rgb(8, 2, 2);
+   background-color: wheat;
+   font-size: 18px;
+   font-weight: 200;
+   transition: 0.4s ease-out;
+}
+ header input:focus{
+     background-color:rgb(194, 193, 216) ;
+ }
+
+ main{
+     flex:1 1 100% ;
+     padding: 25px 25px 50px;
+     
+     text-align: center;
+     align-items: center;
+     display: flex;
+     flex-direction: column;
+
+ }
+ .current{
+     color: whitesmoke;
+ }
+ .location .city{
+    color: rgba(207, 91, 91, 0.856);
+    font-family: 'Lato', sans-serif;
+        font-size: 50px;
+    font-weight: 700;
+    text-shadow: -3px 3px 4px rgb(175, 157, 108);
+ }
+ .location .date{
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+ }
+ .current .temp{
+     font-size:50px;
+     font-weight: 400;
+     margin-top: 8px;
+     text-shadow: -3px 3px 4px rgb(182, 158, 91);
+ }
+ .current .temp span{
+          font-weight: 100;
+ }
+ .current .weather{
+     font-style: italic;
+     margin-bottom: 5px;
+     font-weight: 150;
+ }
+ .current .hi-low{
+     font-weight:110;
+     font-style: italic;
+     
+ }
+ 
+
+
+
+
+
+
+ 
